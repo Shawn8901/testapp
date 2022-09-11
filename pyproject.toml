@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "testapp"
+version = "0.1.0"
+description = ""
+authors = ["Shawn8901 <shawn8901@googlemail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+hikari = "2.0.0dev110"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
